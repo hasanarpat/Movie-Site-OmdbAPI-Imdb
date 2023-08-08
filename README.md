@@ -17,7 +17,7 @@ Made with:
 </h3>
 <h1> Fully Responsive Design</h1>
 <p class="center">
-<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI-Imdb/blob/master/public/img/Capture.JPG"/>
+<img alt="" src="https://github.com/hasanarpat/Movie-Site-OmdbAPI-Imdb/blob/main/public/img/Capture.JPG"/>
 <br/>
  <br/>
 <h2>Desktop Design</h2>
