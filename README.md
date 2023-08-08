@@ -17,15 +17,15 @@ Made with:
 </h3>
 <h1> Fully Responsive Design</h1>
 <p class="center">
-<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI/blob/master/public/img/Capture.JPG"/>
+<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI-Imdb/blob/master/public/img/Capture.JPG"/>
 <br/>
  <br/>
 <h2>Desktop Design</h2>
-<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI/blob/master/public/img/Capture2.JPG"/>
+<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI-Imdb/blob/master/public/img/Capture2.JPG"/>
 <br/><br/>
 <h2> Take a look inside.</h2>
-<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI/blob/master/public/img/gif.gif"/>
+<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI-Imdb/blob/master/public/img/gif.gif"/>
  <br/><br/>
 <h2>Pagination of data</h2>
-<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI/blob/master/public/img/gif2.gif"/>
+<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI-Imdb/blob/master/public/img/gif2.gif"/>
 </p>
