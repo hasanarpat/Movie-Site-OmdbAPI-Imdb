@@ -21,11 +21,11 @@ Made with:
 <br/>
  <br/>
 <h2>Desktop Design</h2>
-<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI-Imdb/blob/master/public/img/Capture2.JPG"/>
+<img alt="" src="https://github.com/hasanarpat/Movie-Site-OmdbAPI-Imdb/blob/main/public/img/Capture2.JPG"/>
 <br/><br/>
 <h2> Take a look inside.</h2>
-<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI-Imdb/blob/master/public/img/gif.gif"/>
+<img alt="" src="https://github.com/hasanarpat/Movie-Site-OmdbAPI-Imdb/blob/main/public/img/gif.gif"/>
  <br/><br/>
 <h2>Pagination of data</h2>
-<img alt="" src="https://github.com/hasanarpat/Movie-Site-OMDBAPI-Imdb/blob/master/public/img/gif2.gif"/>
+<img alt="" src="https://github.com/hasanarpat/Movie-Site-OmdbAPI-Imdb/blob/main/public/img/gif2.gif"/>
 </p>
