@@ -1,0 +1,100 @@
+.favorite {
+	height: max-content;
+
+	.wrapper {
+		width: 60%;
+		margin: auto;
+
+		.list {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+
+			.header {
+				font-size: 32px;
+				text-align: center;
+				font-weight: 800;
+				margin-bottom: 30px;
+			}
+			.listItem {
+                padding: 10px 20px;
+                margin-bottom: 10px;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                background-color: rgba(0,0,0,0.9);
+                border-radius: 10px;
+                color: white;
+                img{
+                    max-width: 150px;
+                    max-height: 150px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    flex: 2;
+                }
+                span{
+                    font-size: 18px;
+                    flex: 2;
+                    padding-left: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .icon{
+                    flex: 1;
+                    width: 50px;
+                    height: 50px;
+                    cursor: pointer;
+                }
+			}
+		}
+	}
+	@media(max-width:"720px"){
+		.wrapper{
+			width: 100%;
+			.list{
+				align-items: center;
+				.listItem {
+					width: 90%;
+					
+				}
+			}
+		}
+	}
+
+	.noContent {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 80px;
+		h2 {
+			font-size: 24px;
+			font-weight: 500;
+		}
+		button {
+			width: 225px;
+			padding: 25px;
+			background-color: var(--secondary-color);
+			color: white;
+			font-size: 18px;
+			border: none;
+			cursor: pointer;
+
+			&:hover {
+				background-color: var(--primary-color);
+				color: var(--secondary-color);
+			}
+		}
+
+		@media(max-width:"720px"){
+			left:5px;
+		}
+	}
+}

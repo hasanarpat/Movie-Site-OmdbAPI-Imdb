@@ -1,0 +1,276 @@
+.single {
+	width: 100%;
+	
+	.wrapper{
+		width: 100%;
+		margin: auto;
+
+		.bgOpacity{
+			background-color: rgba(0,0,0,0.9);
+			color: white;
+			padding: 20px;
+
+			.top{
+				padding: 0 50px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				.left{
+					padding: 20px;
+
+					.date{
+						display: flex;
+						align-items: center;
+						gap: 10px;
+					}
+				}
+
+				.right{
+					display: flex;
+					align-items: center;
+					gap: 40px;
+
+					.item{
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						gap: 20px;
+					}
+				}
+			}
+
+			.content{
+				padding: 20px 50px;
+				display: flex;
+				justify-content: center;
+				gap: 100px;
+				img{
+					width: 400px;
+					height: 600px;
+					object-fit: cover;
+				}
+				.right{
+					display: flex;
+					flex-direction: column;
+					gap: 20px;
+
+					
+					.videos,.photos{
+						background-color: rgb(211, 211, 211,0.6);
+						width: 200px;
+						height: 200px;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: center;
+						gap: 20px;
+						font-size: 20px;
+						cursor: pointer;
+						&:hover{
+							background-color:rgb(211, 211, 211,0.2)
+						}
+					}
+					.icon{
+						width: 50px;
+						height: 50px;
+					}
+				}
+
+			}
+			.info{
+				display: flex;
+				padding: 50px;
+				.left{
+					flex:3;
+					display: flex;
+					flex-direction: column;
+					
+					.genres{
+						width: max-content;
+						padding: 0 25px;
+						font-size: 24px;
+						font-weight: 800;
+						border-radius: 5px;
+						background-color: lightgray;
+						color: var(--primary-color);
+						&:hover{
+							background-color:rgb(211, 211, 211,0.2);
+							color: white;
+						}
+					}
+					.plot{
+						margin: 15px 0;
+						padding: 10px 0;
+						font-size: 18px;
+						font-weight: 500;
+						text-align: justify;
+					}
+					.about{
+						margin-top: 0;
+						display: flex;
+						flex-direction: column;
+						
+						hr{
+							width: 600px;
+							margin-left: 0;
+						}
+
+						.directors,.writers,.actors{
+							display: flex;
+							flex-wrap: wrap;
+							justify-content: space-between;
+							gap: 20px;
+							width: 600px;
+							font-size: 18px;
+							font-weight: 400;
+
+							span{
+								font-size: 20px;
+								color: var(--secondary-color);
+							}
+						}
+					}
+				}
+				.right{
+					flex:1;
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					flex-direction: column;
+					gap: 25px;
+
+					.top{
+						background-color: rgb(211, 211, 211,0.6);
+						padding: 10px;
+						display: flex;
+						width: 70%;
+						align-items: center;
+						justify-content: center;
+						gap: 50px;
+						cursor: pointer;
+						button{
+							width: 200px;
+							padding: 25px;
+							background-color: var(--secondary-color);
+							border-radius: 5px;
+							border: none;
+							font-size: 18px;
+							font-weight: 700;
+							cursor: pointer;
+						}
+						.fav{
+							width: 60px;
+							height: 60px;
+						}
+
+						&:hover{
+							background-color:rgb(211, 211, 211,0.2);
+							.fav{
+								color: red;
+							}
+						}
+					}
+					.bottom{
+						display: flex;
+						flex-wrap: wrap;
+						justify-content: center;
+						gap: 20px;
+
+						.item{
+							display: flex;
+							flex-direction: column;
+							align-items: center;
+							gap: 10px;
+							span{
+								font-size: 20px;
+								&:nth-child(2){
+									font-size: 24px;
+									font-weight: 800;
+								}
+							}
+							.IMD{
+								background-color: #fff;
+								color: var(--primary-color);
+								padding: 20px;
+							}
+							.RT{
+								background-color: red;
+								color: lime;
+								padding: 20px;
+							}
+							.MT{
+								background-color: rgb(0, 102, 255);
+								color: white;
+								padding: 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media(max-width:"1024px"){
+			.bgOpacity{
+				.top{
+					flex-direction: column;
+					.left{
+						display: flex;
+						align-items: center;
+						flex-direction: column;
+					}
+				}
+				.content{
+					flex-direction: column;
+					align-items: center;
+					padding: 0;
+					margin-top: 10px;
+				}
+				.info{
+					margin-top: 30px;
+					padding: 10px;
+					flex-direction: column;
+
+					.left{
+						.about{
+							display: flex;
+							flex-direction: column;
+							
+							hr{
+								width: 100%;
+								margin-left: 0;
+							}
+	
+							.directors,.writers,.actors{
+								width: 100%;
+							}
+						}
+					}
+					.right{
+						margin-top: 20px;
+						align-items: center;
+						.top{
+							width: 100%;
+							flex-direction: row;
+							gap: 10px;
+							background-color: transparent;
+							button{
+								width: 75%;
+								padding: 20px;
+							}
+							
+						}
+						
+					}
+				}
+			}
+		}
+
+		@media(min-width:"720px"){
+			.content{
+					.right{
+						flex-direction: row;
+					}
+			}
+		}
+	}
+}

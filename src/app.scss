@@ -1,0 +1,17 @@
+:root{
+    --primary-color:#000;
+    --secondary-color:#FFC600;
+    --light-color:#b4adad;
+}
+
+.app {
+	&::-webkit-scrollbar {
+		display: none;
+	}
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+	.link {
+		text-decoration: none;
+		color: inherit;
+	}
+}
